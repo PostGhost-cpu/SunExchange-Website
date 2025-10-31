@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Stay informed with the latest news and updates from Sun Exchange. Read about new solar projects, renewable energy innovations, and clean energy developments transforming South Africa’s sustainability landscape.">
+    <meta name="keywords" content="Sun Exchange News, Solar News, Renewable Energy Updates, Clean Energy News, Solar Industry South Africa, Sustainable Energy, Solar Technology, Green Innovation, Renewable Power Trends, Solar Projects, Environmental News">
+    <meta author="Olwethu Rotondwa Mukona">
+    <title>News</title>
+    <link rel="StyleSheet" href="./CSS/stylesheet.css">
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="./JS/scriptsheet.js"></script>
+</head>
+<header id="Home_section">
+<div class="Navigation_section">
+    <img id="Logo" src="./Images/SunEx-Logo.svg" alt="SunExchange Logo">
+     <nav id="Navigation_bar">
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="solutions.html">Solutions</a>
+        <a href="projects.html">Projects</a>
+        <a href="news.html">News</a>
+        <a href="contact.html">Contact</a>
+        <a href="login.html">Login</a>
+     </nav>
+ </div>
+</header>
+<div class="header_element">
+    <h1>Solar energy</h1>
+    <p id="date"></p>
+    <p><i>Latest News and Developments</i></p><br>
+
+    <script>
+      const news_date = new Date("Wednesday, October 29, 2025");
+        document.getElementById("date").innerHTML = news_date;
+    </script>
+
+</div>
+
+<body id="News_section">
+    <section>
+  <div class="content">
+    <div class="news-container"></div>
+    <button class="load_more">More</button>
+
+<script id="news-data" type="application/json">
+
+  {
+  "meta": {
+    "version": "1.0",
+    "last_updated": "2025-10-28"
+  },
+ "articles": [
+  {
+    "image": "./Images/Project (26).jpg",
+    "heading": "Tournee Solar Park marks important step in South Africa’s clean energy transition",
+    "paragraph": "South Africa’s renewable energy capacity is set to increase with the Tournee Solar Park, the first project to start construction under Eskom’s landmark 2022 land lease initiative.",
+    "author": "iol Reporter",
+    "released": "Published 1 week ago",
+    "url": "https://iol.co.za/saturday-star/news/2025-10-15-tournee-solar-park-marks-important-step-in-south-africas-clean-energy-transition/"
+  },
+  {
+    "image": "./Images/Project (1).jpg",
+    "heading": "Red Rocket achieves financial close on Tournee Solar Park, a milestone in South Africa's renewable energy journey",
+    "paragraph": "Red Rocket's Tournee Solar Park marks a historic milestone in South Africa's renewable energy sector, being the first project to reach financial close under Eskom's innovative land lease initiative. This ambitious project aims to power 224,000 homes and significantly reduce carbon emissions.",
+    "author": "Weekend Argus Reporter",
+    "released": "Published 2 weeks ago",
+    "url": "https://iol.co.za/weekend-argus/news/2025-10-14-red-rocket-achieves-financial-close-on-tournee-solar-park-a-milestone-in-south-africas-renewable-energy-journey/"
+  },
+  {
+    "image": "./Images/Solar installers (1).jpg",
+    "heading": "Court interdicts company in solar panel design infringement case",
+    "paragraph": "A recent court ruling has highlighted the ongoing intellectual property disputes in South Africa's solar panel industry, as Balster Nienhuis seeks justice against Africo Solar for design infringement.",
+    "author": "Zelda Venter",
+    "released": "Published 2 months ago",
+    "url": "https://iol.co.za/capetimes/news/2025-08-28-court-interdicts-company-in-solar-panel-design-infringement-case/"
+  },
+  {
+    "image": "./Images/Project (2).jpg",
+    "heading": "Africa's solar panel imports surge by 60% as clean energy adoption accelerates",
+    "paragraph": "Africa has witnessed a remarkable 60% increase in solar panel imports over the past year, according to a new analysis by energy think tank Ember.",
+    "author": "Mthobisi Nozulela",
+    "released": "Published 2 months ago",
+    "url": "https://iol.co.za/business/2025-08-27-africas-solar-panel-imports-surge-by-60-as-clean-energy-adoption-accelerates/"
+  },
+  {
+    "image": "./Images/Project (21).jpg",
+    "heading": "Homeowners urged to delay solar system registration as Eskom clarifies compliance issues",
+    "paragraph": "Outa warns homeowners and businesses to postpone solar system registration until Eskom addresses critical compliance concerns, highlighting the potential risks of premature registration.",
+    "author": "Manyane Manyane",
+    "released": "Published 2 months ago",
+    "url": "https://iol.co.za/news/2025-08-13-homeowners-urged-to-delay-solar-system-registration-as-eskom-clarifies-compliance-issues/"
+  },
+  {
+    "image": "./Images/Solar Panels.jpg",
+    "heading": "Solar Power in SA: Understanding the confusion, costs, and compliance for homeowners",
+    "paragraph": "Explore the complexities of solar power in South Africa as we break down the regulations, registration demands, and rising costs that homeowners must navigate.",
+    "author": "Yasmine Jacobs",
+    "released": "Published 2 months ago",
+    "url": "https://iol.co.za/news/south-africa/2025-08-05-solar-power-in-sa-understanding-the-confusion-costs-and-compliance-for-homeowners/"
+  },
+  {
+    "image": "./Images/Solar installation.jpg",
+    "heading": "Is South Africa's solar energy growth hindered by outdated regulations?",
+    "paragraph": "Despite record solar installations, outdated regulations and inconsistent municipal policies are stifling the solar revolution South Africa desperately needs.",
+    "author": "Yasmine Jacobs",
+    "released": "Published 3 months ago",
+    "url": "https://iol.co.za/news/south-africa/2025-07-11-is-south-africas-solar-energy-growth-hindered-by-outdated-regulations/"
+  },
+  {
+    "image": "./Images/Project (21).jpg",
+    "heading": "KwaZulu-Natal municipalities to use AI and satellite data to track illegal solar PV installations",
+    "paragraph": "According to Nersa regulations, solar photovoltaic (PV) systems must be registered with municipalities or Eskom.",
+    "author": "Thami Magubane",
+    "released": "Published 4 months ago",
+    "url": "https://iol.co.za/mercury/2025-06-25-kwazulu-natal-municipalities-to-use-ai-and-satellite-data-to-track-illegal-solar-pv-installations/"
+  },
+  {
+    "image": "./Images/Solar installers.jpg",
+    "heading": "Cape Town's Atlantis solar plant: A groundbreaking step towards renewable energy",
+    "paragraph": "The City of Cape Town is making strides with its R200 million solar plant in Atlantis, aiming to power the local grid with 12,850 solar panels by year-end.",
+    "author": "Robin-Lee Francke",
+    "released": "Published 4 months ago",
+    "url": "https://iol.co.za/news/energy/2025-06-06-cape-towns-atlantis-solar-plant-a-groundbreaking-step-towards-renewable-energy/"
+  },
+  {
+    "image": "./Images/Solar panles landscape (2).jpg",
+    "heading": "Potential new jobs are at risk in the solar industry",
+    "paragraph": "Could proposed import taxes on renewable energy products jeopardise thousands of jobs in South Africa's solar industry?",
+    "author": "Nicola Mawson",
+    "released": "Published 6 months ago",
+    "url": "https://iol.co.za/business/jobs/2025-04-25-potential-new-jobs-are-at-risk-in-the-solar-industry/"
+  },
+  {
+    "image": "./Images/Solar panles landscape (1).jpg",
+    "heading": "Westbrooke launches sustainable energy initiative harnessing solar power",
+    "paragraph": "Westbrooke Alternative Asset Management has launched a comprehensive renewable energy portfolio featuring 80 solar projects across nine South African provinces. With 30MW of installed capacity and backed by commercial power purchase agreements, the initiative aims to help businesses combat load shedding while reducing costs and environmental impact.",
+    "author": "Siphelele Dludla",
+    "released": "Published 6 months ago",
+    "url": "https://iol.co.za/business-report/2025-04-07-westbrooke-launches-sustainable-energy-initiative-harnessing-solar-power/"
+  },
+  {
+    "image": "./Images/Solar_panles (2).jpeg",
+    "heading": "Record renewable energy growth in 2024 falls short of global targets, Irena says",
+    "paragraph": "Despite a record surge in renewable power capacity in 2024, are we doing enough to meet the ambitious targets set for 2030? Discover the insights from Irena's latest report.",
+    "author": "Philippa Larkin",
+    "released": "Published 7 months ago",
+    "url": "https://iol.co.za/business-report/energy/2025-03-26-record-eenewable-energy-growth-in-2024-falls-short-of-global-targets-irena-says/"
+  },
+  {
+    "image": "./Images/Solar panles (4).jpg",
+    "heading": "South Africa’s renewable energy sector celebrates dual financial milestones",
+    "paragraph": "This week marks a significant advancement in South Africa's renewable energy landscape as two major projects secure financial backing, paving the way for a sustainable future.",
+    "author": "Philippa Larkin",
+    "released": "Published 7 months ago",
+    "url": "https://iol.co.za/business-report/energy/2025-03-19-south-africas-renewable-energy-sector-celebrates-dual-financial-milestones/"
+  },
+  {
+    "image": "./Images/Solar installers (2).jpg",
+    "heading": "Rising Eskom tariffs: How solar power can save you money",
+    "paragraph": "Despite the end of a temporary tax deduction for renewable energy investments, experts argue that solar remains a financially sound choice for households.",
+    "author": "Nicola Mawson",
+    "released": "Published 7 months ago",
+    "url": "https://iol.co.za/business/advice/2025-03-19-rising-eskom-tariffs-how-solar-power-can-save-you-money/"
+  },
+  {
+    "image": "./Images/Sun-Exchange.jpg",
+    "heading": "World-touring SolarButterfly, a Tesla, makes historic stop at SA's first off-grid EV station",
+    "paragraph": "The stop came on Monday as Eskom reinstated stage 6 load shedding, underscoring ongoing power challenges in the country.",
+    "author": "BR Reporter",
+    "released": "Published 8 months ago",
+    "url": "https://iol.co.za/business-report/energy/2025-02-26-world-touring-solarbutterfly-a-tesla-makes-historic-stop-at-sas-first-off-grid-ev-station/"
+  },
+  {
+    "image": "./Images/Solar panles landscape (3).jpg",
+    "heading": "13.5 MWp solar plant boosts Atlantis Foundries' energy security",
+    "paragraph": "Atlantis Foundries, a major African export manufacturer, launches a 13.5 MWp solar facility featuring 20,000 panels to combat load shedding and reduce costs by R35 million annually. The project showcases how South African industries can achieve energy independence while meeting international sustainability standards.",
+    "author": "Philippa Larkin",
+    "released": "Published 8 months ago",
+    "url": "https://iol.co.za/business-report/energy/2025-02-25-13-5-mwp-solar-plant-boosts-atlantis-foundries-energy-security/"
+  },
+  {
+    "image": "./Images/Sun-Exchange.jpg",
+    "heading": "Perovskite solar technology: revolutionary applications reshaping energy markets",
+    "paragraph": "Perovskite technology is revolutionising the solar energy landscape, offering unprecedented possibilities from building integration to powering IoT devices. This comprehensive analysis explores how this emerging technology could transform the £220bn solar market and compete with traditional silicon-based solutions.",
+    "author": "Opinion",
+    "released": "Published 8 months ago",
+    "url": "https://iol.co.za/business-report/economy/2025-02-26-perovskite-solar-technology-revolutionary-applications-reshaping-energy-markets/"
+  },
+  {
+    "image": "./Images/Solar Panels.jpg",
+    "heading": "SolarAfrica secures R1.8 billion in major solar project to boost green energy",
+    "paragraph": "SolarAfrica's R1.8 billion investment in the SunCentral solar project signifies a pivotal step towards enhancing renewable energy capacity in South Africa.",
+    "author": "Dhivana Rajgopaul",
+    "released": "Published 8 months ago",
+    "url": "https://iol.co.za/news/energy/2025-02-24-solarafrica-secures-r1-8-billion-in-major-solar-project-to-boost-green-energy/"
+  },
+  {
+    "image": "./Images/Project (4).jpg",
+    "heading": "Green hydrogen is a clean fuel, but South Africa’s not ready to produce it: energy experts explain why",
+    "paragraph": "Our risk analysis also shows that the funds needed to build production plants globally, including in South Africa, are just a fraction of what it will cost to build a functioning green hydrogen economy.",
+    "author": "Opinion",
+    "released": "Published 8 months ago",
+    "url": "https://iol.co.za/business-report/economy/2025-02-12-green-hydrogen-is-a-clean-fuel-but-south-africas-not-ready-to-produce-it-energy-experts-explain-why/"
+  },
+  {
+    "image": "./Images/Project (3).jpg",
+    "heading": "Eskom’s balancing act: navigating energy security, financial strain and future reforms",
+    "paragraph": "Eskom remains at the heart of SA’s economic and fiscal challenges, as ongoing operational inefficiencies, financial instability, and structural vulnerabilities continue to pose significant risks.",
+    "author": "Opinion",
+    "released": "Published 8 months ago",
+    "url": "https://iol.co.za/business-report/economy/2025-02-11-eskoms-balancing-act-navigating-energy-security-financial-strain-and-future-reforms/"
+  },
+  {
+    "image": "./Images/Project (14).jpg",
+    "heading": "Unlocking Africa's green energy potential through effective financing models",
+    "paragraph": "Held in Dar Es Salaam, the summit brought together industry leaders, policymakers, and investors to explore strategies for leveraging Africa's vast natural resources in pursuit of sustainable economic growth.",
+    "author": "Ashley Lechman",
+    "released": "Published 8 months ago",
+    "url": "https://iol.co.za/business-report/economy/2025-01-28-unlocking-africas-green-energy-potential-through-effective-financing-models/"
+  },
+  {
+    "image": "./Images/Sun-Exchange.jpg",
+    "heading": "Anglo American ICT programme sparks solar and construction success for Limpopo businessman",
+    "paragraph": "Lethaba Madima transformed his Anglo American ICT learnership experience into a thriving multi-sector business, creating jobs and opportunities in Musina, Limpopo.",
+    "author": "Hope Mafu",
+    "released": "Published 9 months ago",
+    "url": "https://iol.co.za/the-star/news/2025-01-23-anglo-american-ict-programme-sparks-solar-and-construction-success-for-limpopo-businessman/"
+  },
+  {
+    "image": "./Images/Solar panles (4).jpg",
+    "heading": "Egypt’s vision 2030: transforming the nation through renewable energy",
+    "paragraph": "Explore how Egypt is transforming its energy landscape through renewable resources, aiming for a sustainable future by 2030.",
+    "author": "Banthati Sekwala",
+    "released": "Published 9 months ago",
+    "url": "https://iol.co.za/news/world/2025-01-22-egypts-vision-2030-transforming-the-nation-through-renewable-energy/"
+  },
+  {
+    "image": "./Images/Sun-Exchange.jpg",
+    "heading": "Scheduled power interruptions in Hammarsdale: What businesses need to know",
+    "paragraph": "Eskom's planned power outages in Mpumalanga township will affect approximately 85 businesses over three weekends as maintenance work is carried out on the electrical infrastructure.",
+    "author": "Zainul Dawood",
+    "released": "Published 9 months ago",
+    "url": "https://iol.co.za/news/south-africa/2025-01-21-scheduled-power-interruptions-in-hammarsdale-what-businesses-need-to-know/"
+  },
+  {
+    "image": "./Images/Sun-Exchange.jpg",
+    "heading": "‘In many ways the UAE embodies the nexus of next' - ADSW",
+    "paragraph": "The UAE showcases its transformation from desert nation to renewable energy pioneer through groundbreaking initiatives and a $6 billion solar megaproject, while addressing crucial challenges in global energy demand and AI-driven power consumption.",
+    "author": "Helmo Preuss",
+    "released": "Published 9 months ago",
+    "url": "https://iol.co.za/business-report/economy/2025-01-15-in-many-ways-the-uae-embodies-the-nexus-of-next-adsw/"
+  },
+  {
+    "image": "./Images/Sun-Exchange.jpg",
+    "heading": "Investment in renewables has reached a tipping point, says IRENA",
+    "paragraph": "The world is moving in the right direction to create a new energy system, says IRENA Director-General, Francesco La Camera.",
+    "author": "Helmo Preuss",
+    "released": "Published 9 months ago",
+    "url": "https://iol.co.za/business-report/economy/2025-01-13-investment-in-renewables-has-reached-a-tipping-point-says-irena/"
+  },
+  {
+    "image": "./Images/Solar panles landscape (4).jpg",
+    "heading": "South Africa’s solar industry powers forward to 2025",
+    "paragraph": "The country’s total solar PV capacity surged to 8.97 GW, an 11.9% increase compared to 2023.",
+    "author": "Staff Reporter",
+    "released": "Published 9 months ago",
+    "url": "https://iol.co.za/business-report/energy/2024-12-31-south-africas-solar-industry-powers-forward-to-2025/"
+  },
+  {
+    "image": "./Images/background (1).jpg",
+    "heading": "Consumers punished for going off the grid",
+    "paragraph": "Eskom’s plans to penalise consumers for seeking alternative energy sources highlight the mismanagement and corruption that have plagued the utility.",
+    "author": "Letter to the Editor",
+    "released": "Published 10 months ago",
+    "url": "https://iol.co.za/dailynews/opinion/2024-12-16-consumers-punished-for-going-off-the-grid/"
+  },
+  {
+    "image": "./Images/Sun-Exchange.jpg",
+    "heading": "India mandates local-only solar energy components from 2026",
+    "paragraph": "Clean energy sector leaders in India, including ventures by conglomerates Reliance Enterprises and Tata Power, rely on Chinese vendors as their major suppliers.",
+    "author": "Michael Andisile Mayalo",
+    "released": "Published 10 months ago",
+    "url": "https://iol.co.za/business-report/economy/2024-12-11-india-mandates-local-only-solar-energy-components-from-2026/"
+  },
+  {
+    "image": "./Images/Solar panles landscape (1).jpg",
+    "heading": "China’s green economy will boost growth in 2024 and 2025",
+    "paragraph": "In 2023 the clean energy sector emerged as a key driver of gross domestic product growth, as government policy pivoted to making China the global powerhouse for green economy products.",
+    "author": "Helmo Preuss",
+    "released": "Published 10 months ago",
+    "url": "https://iol.co.za/business-report/economy/2024-12-11-chinas-green-economy-will-boost-growth-in-2024-and-2025/"
+  },
+  {
+    "image": "./Images/Solar panles landscape (2).jpg",
+    "heading": "2023 marks another record year for global solar energy growth, report finds",
+    "paragraph": "South Africa installed 3.3 GW of new solar capacity in 2023, bringing its total operational capacity to over 8 GW.",
+    "author": "Philippa Larkin",
+    "released": "Published 10 months ago",
+    "url": "https://iol.co.za/business-report/economy/2024-12-04-2023-marks-another-record-year-for-global-solar-energy-growth-report-finds/"
+  },
+  {
+    "image": "./Images/Sun-Exchange.jpg",
+    "heading": "Charge opens first of 120 solar-powered EV charging stations that will connect SA towns and cities",
+    "paragraph": "Charge plans to erect electric vehicle charging stations with farm stalls at 150km intervals across South Africa.",
+    "author": "Jason Woosey",
+    "released": "Published 10 months ago",
+    "url": "https://iol.co.za/motoring/industry-news/2024-11-28-charge-opens-first-of-120-solar-powered-ev-charging-stations-that-will-connect-sa-towns-and-cities/"
+  },
+  {
+    "image": "./Images/Solar panles (4).jpg",
+    "heading": "TotalEnergies and partners launch 140 MW wind farm and 120 MW solar plant in South Africa",
+    "paragraph": "TotalEnergies said in a statement on Tuesday that in 2023, the consortium signed Corporate Power Purchase Agreements (CPPA) with Sasol South Africa and Air Liquide Large Industries South Africa to supply 260 MW of renewable electricity over 20 years.",
+    "author": "BR Reporter",
+    "released": "Published 11 months ago",
+    "url": "https://iol.co.za/business-report/economy/2024-11-27-totalenergies-and-partners-launch-140-mw-wind-farm-and-120-mw-solar-plant-in-south-africa/"
+  },
+  {
+    "image": "./Images/Sun-Exchange.jpg",
+    "heading": "The African Union in the G20: a new voice for the Global South’s influence",
+    "paragraph": "The G20 Summit in Brazil marks a historic moment as the African Union joins as a full member, highlighting Africa’s growing influence in global governance and economic discussions.",
+    "author": "Ayanda Mdluli",
+    "released": "Published 11 months ago",
+    "url": "https://iol.co.za/dailynews/opinion/2024-11-14-the-african-union-in-the-g20-a-new-voice-for-the-global-souths-influence/"
+  },
+  {
+    "image": "./Images/Sun-Exchange.jpg",
+    "heading": "Zero Carbon Charge invests R9.4 billion in electric vehicle network for KZN",
+    "paragraph": "A R9.4 billion investment in KwaZulu-Natal aims to revolutionise electric vehicle charging and create thousands of jobs.",
+    "author": "Dhivana Rajgopaul",
+    "released": "Published 11 months ago",
+    "url": "https://iol.co.za/business/advice/2024-11-13-zero-carbon-charge-invests-r9-4-billion-in-electric-vehicle-network-for-kzn/"
+  },
+  {
+    "image": "./Images/Sun-Exchange.jpg",
+    "heading": "COP29: a crucial opportunity for global climate action",
+    "paragraph": "COP29 presents a pivotal moment for global climate negotiations, focusing on ambitious targets and essential funding for vulnerable countries.",
+    "author": "Opinion",
+    "released": "Published 11 months ago",
+    "url": "https://iol.co.za/business-report/economy/2024-11-13-cop29-a-crucial-opportunity-for-global-climate-action/"
+  },
+  {
+    "image": "./Images/Sun-Exchange.jpg",
+    "heading": "The future of energy: Trump's return and its global implications",
+    "paragraph": "Trump's return to the presidency reignites the fossil fuel debate, challenging the green agenda and reshaping energy policies both in the US and South Africa.",
+    "author": "Adil Nchabeleng",
+    "released": "Published 11 months ago",
+    "url": "https://iol.co.za/business-report/economy/2024-11-13-the-future-of-energy-trumps-return-and-its-global-implications/"
+  },
+  {
+    "image": "./Images/Project (3).jpg",
+    "heading": "Urgent call for public input on coal and steel zone in Limpopo’s protected Vhembe Region",
+    "paragraph": "Residents have until November 12 to register as stakeholders in the controversial Musina-Makhado Special Economic Zone (MMSEZ) approval process. Environmental groups warn of significant risks to the Vhembe Biosphere Reserve.",
+    "author": "Dominic Naidoo",
+    "released": "Published 11 months ago",
+    "url": "https://iol.co.za/news/environment/2024-11-04-urgent-call-for-public-input-on-coal-and-steel-zone-in-limpopos-protected-vhembe-region/"
+  },
+  {
+    "image": "./Images/Project (18).jpg",
+    "heading": "Legal battle erupts as Renergen and SOLA dispute land rights in Free State",
+    "paragraph": "A legal dispute has emerged between JSE-listed Renergen and SOLA Group over land rights in the Free State, where SOLA's 150-megawatt Springbok Solar Power Plant development conflicts with Renergen's gas extraction rights. Both companies claim legal standing in a case that highlights the complexities of South Africa's energy transition.",
+    "author": "Philippa Larkin",
+    "released": "Published 11 months ago",
+    "url": "https://iol.co.za/business-report/companies/2024-10-29-legal-battle-erupts-as-renergen-and-sola-dispute-land-rights-in-free-state/"
+  },
+  {
+    "image": "./Images/Project (18).jpg",
+    "heading": "Legal battle looms as Renergen contests solar construction in gas production zone",
+    "paragraph": "South Africa's pioneering helium producer Renergen faces off against Springbok Solar over unauthorised construction on gas extraction land, highlighting tensions between renewable energy expansion and existing mineral rights.",
+    "author": "Philippa Larkin",
+    "released": "Published 1 year ago",
+    "url": "https://iol.co.za/business-report/economy/2024-10-28-legal-battle-looms-as-solar-project-encroaches-on-renergens-gas-rights/"
+  },
+  {
+    "image": "./Images/Project (24).jpg",
+    "heading": "Paarl school launches solar project to boost sustainability",
+    "paragraph": "Paarl School in Brackenfell has embarked on a transformative journey towards sustainability with the launch of a new 101 kW solar project.",
+    "author": "Grecia Mgolombane",
+    "released": "Published 1 year ago",
+    "url": "https://iol.co.za/capeargus/news/2024-10-21-paarl-school-launches-solar-project-to-boost-sustainability/"
+  }
+]
+}
+
+</script>
+
+  </div>
+</section>
+</body>
+<footer>
+    <div class="footer">
+        <div class="footer_content">
+            <a href="home.html"><li>Home</li></a>
+            <a href="about.html"><li>About us</li></a>
+            <a href="solutions.html"><li>Energy Solutions</li></a>
+            <a href="projects.html"><li>Projects</li></a>
+            <a href="news.html"><li>News</li></a>
+            <a href="contact.html"><li>Contact us</li></a>
+        </div>
+        <div class="footer_content">
+            <a href="https://sunexchange.com/legal-disclaimer/"><li>Legal Disclaimer</li></a>
+            <a href="https://sunexchange.com/privacy-policy/"><li>Privacy Policy</li></a>
+            <a href="https://sunexchange.com/terms-of-service/"><li>Terms of Service</li></a>
+            <a href="https://sunexchange.com/vulnerability-disclosure-policy/"><li>Vulnerability Disclosure</li></a>
+            <a href="https://sunexchange.com/popia-policy/"><li>POPIA</li></a>
+        </div>
+        <div class="footer_content">
+            <p>For cell owner inquiries,<br>
+            contact:</p>
+            <a href="mailto:hello@thesunexchange.com"><li>hello@thesunexchange.com</li></a>
+            <p>For sales inquiries, contact:</p>
+            <a href="mailto:sales@thesunexchange.com"><li>sales@thesunexchange.com</li></a>
+        </div>
+    </div>
+</footer>
+<div class="footer_bottom">
+    <p>© 2025 Sun Exchange | Designed by Olwethu Rotondwa Mukona</p>
+</div>
+</html>
